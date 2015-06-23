@@ -1,0 +1,16 @@
+{
+    "name": "daison12006013/admin-laravel5.x",
+    "description": "Ready made admin panel for laravel 5.0 and 5.1",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daison Carino",
+            "email": "daison12006013@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Daison\\AdminLaravelFiveX\\": "src/"
+        }
+    }
+}
