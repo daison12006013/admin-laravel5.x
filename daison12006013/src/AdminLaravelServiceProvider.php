@@ -6,6 +6,11 @@ use Illuminate\Support\ServiceProvider;
 
 class AdminLaravelServiceProvider extends ServiceProvider
 {
+    public function __construct()
+    {
+        $this->base_folder = dirname(__FILE__);
+    }
+
     public function boot()
     {
         if (! $this->app->routesAreCached()) {
